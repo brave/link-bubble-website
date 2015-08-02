@@ -1,0 +1,21 @@
+{
+  "name": "linkbubble-website",
+  "version": "1.0.0",
+  "description": "The linkbubble.com website is hosted on github pages.",
+  "main": "index.js",
+  "scripts": {
+    "build": "staticjinja build --srcpath=$(pwd)/src/templates --outpath=./",
+    "server": "python -m SimpleHTTPServer 9000",
+    "clean": "rm *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brave/linkbubble-website.git"
+  },
+  "author": "Link Bubble",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/brave/linkbubble-website/issues"
+  },
+  "homepage": "https://github.com/brave/linkbubble-website#readme"
+}
