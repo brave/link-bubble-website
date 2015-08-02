@@ -3,7 +3,7 @@
 
 git checkout -b gh-pages
 staticjinja build --srcpath=$(pwd)/src/templates
-git add *
+git add * -f
 git commit -m "Deployed to Github Pages"
 git push origin :gh-pages
 #git subtree push --prefix src origin gh-pages
